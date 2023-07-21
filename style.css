@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Cinzel:wght@500&family=Cormorant+SC&family=Poiret+One&family=Qwitcher+Grypen:wght@400;700&display=swap");
+
+.navbar {
+  background-color: #911c24;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.background {
+  background-color: #fbf2eb;
+}
+
+.redbg {
+  background-color: #911c24;
+}
+
+.maroonbg {
+  background-color: #6e3535;
+}
+
+.pinkbg {
+  background-color: #dab3a2;
+}
+
+.historyimg {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+}
+
+.pad30 {
+  padding: 30px;
+}
+
+.pad10 {
+  padding: 10px;
+}
+.titlefont {
+  font-family: "Qwitcher Grypen", cursive;
+  font-size: 30px;
+}
+
+.pricefont {
+  font-size: 15px;
+  font-family: "Poiret One", cursive;
+  background-color: #dab3a2;
+  padding: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+.descriptionfont {
+  font-size: 15px;
+  font-family: "Poiret One", cursive;
+  background-color: #dab3a2;
+  padding: 10px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.wrap {
+  float: right;
+  margin: 5px;
+}
+
+.row {
+  /* background-color: cadetblue; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Try to add maring left and right as auto to the element you want to center inside of the column.
+If that does not work you could potentially make the column it's own flex container,
+justify content center, and align items center. */
+
+a {
+  color: #dab3a2 !important;
+  font-family: "Qwitcher Grypen", cursive;
+  font-size: 2rem !important;
+}
+
+h1 {
+  font-family: "Qwitcher Grypen", cursive;
+  font-size: 70px;
+}
+
+h2 {
+  font-family: "Qwitcher Grypen", cursive;
+  text-align: center;
+  font-size: 50px;
+}
+
+h3 {
+  font-family: "Qwitcher Grypen", cursive;
+  text-align: center;
+  font-size: 70px;
+}
+
+p {
+  font-size: 15px;
+  font-family: "Poiret One", cursive;
+  background-color: #dab3a2;
+  padding: 10px;
+}
+
+.reviewtext {
+  background-color: #dab3a2;
+}
+
+.heroimage {
+  height: 50vh;
+  background-image: url(./images/HeroPNG.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.navbar-brand {
+  font-size: 3rem !important;
+}
+
+.heroimage img {
+  height: 30vh;
+}
+
+.ior {
+  display: flex;
+  margin: 5px;
+}
+
+/* .ior image {
+} */
+
+/* Media Query */
+@media screen and (max-width: 600px) {
+  h1 {
+    color: #dab3a2;
+    font-family: "Qwitcher Grypen", cursive;
+    font-size: 35px;
+  }
+
+  .reviewtext {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .heroimage {
+    height: 30vh;
+    background-image: url(./images/HeroPNG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .heroimage img {
+    height: 20vh;
+  }
+}
